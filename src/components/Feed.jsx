@@ -11,6 +11,15 @@ const Feed = () => {
           Copyright 2023 WildJaw Media
         </Typography>
       </Box>
+
+
+      <Box>
+        <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: 'white' }}>
+          <span style={{ color: '#f31503'}}>
+            Videos
+          </span>
+        </Typography>
+      </Box>
     </Stack>
   )
 }
