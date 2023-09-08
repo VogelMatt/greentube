@@ -26,7 +26,7 @@ const SearchBar = () => {
       <IconButton>
         <Search/>
       </IconButton>
-      SearchBar</Paper>
+      </Paper>
   )
 }
 
