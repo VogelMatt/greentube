@@ -12,7 +12,7 @@ const Feed = () => {
 
         <Typography className="copyright"
         variant="body2" sx={{ mt: 1.5, color: '#fff' }}>
-          Copyright 2023 WildJaw Media
+          2023 WildJaw Media
         </Typography>
       </Box>
 
