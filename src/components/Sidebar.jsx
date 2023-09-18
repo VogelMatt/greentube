@@ -1,7 +1,5 @@
 import { Stack } from '@mui/material';
 import { categories } from '../utils/constants';
-import HomeIcon from '@mui/icons-material/Home';
-import CodeIcon from '@mui/icons-material/Code';
 
 const selectedCategory = 'New';
 
@@ -24,8 +22,6 @@ const Sidebar = () => {
           }}
           key={category.name}
         >
-          
-          
           <span>
             {category.icon} 
             {category.name}
