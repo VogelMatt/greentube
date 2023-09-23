@@ -4,7 +4,6 @@ const Base_URL= 'https://youtube-v31.p.rapidapi.com/captions';
 
 
 const options = {
-    url: Base_URL,
     params: {
         maxResults: '50'
     },
@@ -13,6 +12,7 @@ const options = {
       'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
   };
+
 
   export const fetchFromAPI = async (url) => {
    const {data} =  await axios.get(`${Base_URL}/${url}`, options);
